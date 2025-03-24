@@ -298,6 +298,7 @@ View node information on the **master**
 ```
 kubectl get nodes
 ```
+If node is not commimg install #weave-net, on master node and then run kubectl get nodes
 
 ### Task 5: Deploy Container Networking Interface
 Go to **master** node and 
