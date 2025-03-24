@@ -300,6 +300,8 @@ kubectl get nodes
 ```
 **If node is not commimg** install **weave-net**, on master node and then run kubectl get nodes
 
+**Weave Net** is a popular network plugin for Kubernetes that provides a simple and flexible networking solution for containerized applications. It allows you to connect containers across multiple hosts and create a virtual network for your Kubernetes pods.
+
 ### Task 5: Deploy Container Networking Interface
 Go to **master** node and 
 Apply weave CNI (Container Network Interface) as shown below:
