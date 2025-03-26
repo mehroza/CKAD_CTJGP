@@ -257,7 +257,7 @@ kubectl get po -o wide
 ```
 Check the endpoints
 ```
-kubectl get ep svc svc-web
+kubectl get ep svc-web
 ```
 Access you application on the port 32123
 
@@ -273,7 +273,7 @@ kubectl replace -f web-green.yaml
 ```
 kubectl replace -f web-blue.yaml
 ```
-In the yaml file of Service change the Selector to 'type: web-app` and replace.
+In the yaml file of `Service` change the Selector to `type: web-app` and replace.
 
 Check the endpoints of the service. It should show all the pods of both the deployments.
 ```
